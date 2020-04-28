@@ -1,9 +1,8 @@
-# -*- conding:utf8 -*-
+# -*- coding:utf8 -*-
 
 file_name = input()
-line_cnt = 0
 with open(file_name) as f:
-    for line in f:
-        line_cnt += 1
+    lines = [ line.strip().replace("\t"," ") for line in f ]
 
-print(line_cnt)
+for line in lines:
+    print(line)
