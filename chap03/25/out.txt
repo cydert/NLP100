@@ -1,0 +1,1 @@
+{'略名  ': 'イギリス', '日本語国名 ': ' グレートブリテン及び北アイルランド連合王国', '公式国名 ': ' {{lang|en|United Kingdom of Great Britain and Northern Ireland'}
