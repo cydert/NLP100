@@ -8,7 +8,7 @@ with open(file_name) as f:
 
     m = re.search(r"\{\{基礎情報", text)
     text = text[m.end():]
-    m = re.search(r"\}\}", text)
+    m = re.search(r"\n\}\}", text)
     text = text[:m.start()]
     
     for i in text.split("\n"):
